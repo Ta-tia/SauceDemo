@@ -4,7 +4,7 @@ from pages.inventory_page import InventoryPage
 
 
 def test_successful_login(driver):
-    """Test login with valid credentials"""
+    """Test login with valid credentials."""
     login_page=LoginPage(driver)
     login_page.open()
     login_page.login("standard_user", "secret_sauce")
